@@ -1,0 +1,12 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\SoftDeletes;
+class PartyDocuments extends Model{
+    use SoftDeletes;
+    protected $table = 'party_document';
+    protected $guarded = [];
+
+}
