@@ -5,14 +5,6 @@ use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
 use App\Models\User;
-use App\Models\Bills;
-use App\Models\Parties;
-use App\Models\TransportTrips;
-use App\Models\CompanySettings;
-use App\Models\Vehicles;
-use App\Models\Routes;
-use App\Models\Drivers;
-use App\Models\DriverAllocateVehicles;
 
 // use App\Models\Tickets;
 // use App\Models\Customers;

@@ -43,17 +43,5 @@ class User extends Authenticatable{
         'email_verified_at' => 'datetime',
     ];
 
-    function getRoleDetail(){
-       return $this->hasOne('App\Models\Roles', 'id','role_id');
-    }
-
-    public function CreatedByBelongsToTrip(){
-        return $this->belongsTo('App\Models\TransportTrips','trip_created_by','id');
-    }
-
-    public function CreatedByBelongsToTripVoucher(){
-        return $this->belongsTo('App\Models\TransportTripVouchers','voucher_created_by','id');
-    }
-
 
 }
